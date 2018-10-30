@@ -1,2 +1,1 @@
 # ideal-succotash
-CtCI
