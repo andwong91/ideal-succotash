@@ -9,6 +9,7 @@ var insertBalanced = function(array) {
   var floor = Math.floor;
   q.add(array);
   while (!q.isEmpty()) {
+    console.log(q.peek());
     currArr = q.remove();
     bst.insert(currArr[floor(currArr.length/2)]);
     if (currArr.slice(0, floor(currArr.length/2)).length > 0) {
